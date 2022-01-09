@@ -1,0 +1,40 @@
+.register .box-check-all{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.register textarea{
+    resize: none;
+}
+
+.register p{
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.register .box-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.register .box-button button{
+    padding: 5px;
+    width: 120px;
+}
+
+.register .box-button input{
+    width: 100px;
+}
+
+.register .box-button input:last-child{
+    margin-left: 10px;
+}
+
+.register .box-button button:last-child{
+    margin-left: 10px;
+}

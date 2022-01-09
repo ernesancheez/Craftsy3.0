@@ -1,0 +1,126 @@
+.home #carousel1, #carousel2, #carousel3{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 100%;
+}
+.home #carousel1{
+    background-image: url('/images/banner_1.jpg');
+}
+
+.home #carousel2{
+    background-image: url('/images/banner_2.jpg');
+}
+
+.home #carousel3{
+    background-image: url('/images/banner_3.jpg');
+}
+
+.home main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.home main section.productos{
+    width: 790px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home main section.productos article{
+    width: 49%;
+    margin: 10px 0 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #acd8e6;
+    position: relative;
+    transition: all .5s ease;
+}
+
+.home main section.productos article:hover{
+    box-shadow: 5px 5px 5px silver;
+    transform: scale(1.02);
+}
+
+.home main section.productos article img.img-producto{
+    width: 100%;
+}
+
+.home main section.productos article img.img-sticker{
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.home main section.productos article h4{
+    margin: 10px 0;
+} 
+
+.home main section.productos article a.btn-comprar{
+    background-color: #ef4c27;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+.home main section.productos article a.btn-comprar:hover{
+    background-color: tomato;
+}
+
+
+.home main aside{
+    width: 320px;
+}
+
+.home main aside h3 {
+    background-color: #ffffff;
+    border: 1px solid #acd8e6;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.home main section.productos h3{
+    background-color: #ffffff;
+    border: 1px solid #acd8e6;
+    padding: 10px;
+   height: 55px;
+}
+
+.home main aside section.tutoriales article{
+    border: 1px solid #acd8e6;
+    padding: 10px;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.home main aside article p{
+    margin-left: 10px;
+}
+
+.home main aside section.box-publicidad{
+    margin-top: 30px;
+}
+
+.home main aside section article.publicidad{
+    margin-top: 00px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #acd8e6;
+
+}
+
+.home main aside article.publicidad img{
+    width: 100%;
+}
+
+.home .carousel-control-prev:hover{
+    background: none;
+}
+
+.home .carousel-control-next:hover{
+    background: none;
+}

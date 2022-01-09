@@ -1,0 +1,17 @@
+.login{
+    margin: 0 auto;
+}
+
+.login .box-error{
+    margin: 20px 0
+}
+
+.login span{
+    color: red;
+}
+
+
+
+.login .box-check{
+    justify-content: flex-end;
+}

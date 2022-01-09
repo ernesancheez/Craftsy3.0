@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partials/head',{title: 'Login de usuario'}) %> 
+
+<body class="login">
+    <%- include('./partials/header') %> 
+
+    <main>
+        <div class="row">
+            <div class="col-12 col-md-6 mx-auto mt-3">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h4>BIENVENIDO</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="POST" autocomplete="off">
+                            <div class="box-form">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="email@empresa.com" id="email" name="email">
+                            </div>
+                            <div class="box-form">
+                                <label for="pass">Contraseña</label>
+                                <input type="password" placeholder="tu contraseña" id="pass" name="password">
+                            </div>
+                            <div class="box-check">
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Recordame</label>
+                            </div>
+                            <div class="box-error">
+                                <span><%= locals.errores && errores.email ? errores.email.msg : null %> </span>
+                            </div>
+                            <button type="submit">Ingresar</button>
+                        </form>
+                    </div>
+                </div>
+          
+        </div>
+       
+    </main>
+    <%- include('./partials/scripts') %> 
+
+</body>
+</html>

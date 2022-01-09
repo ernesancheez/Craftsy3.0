@@ -1,0 +1,219 @@
+[
+   {
+      "id": 2,
+      "name": "Motorola Edge XT",
+      "description": "habitasse platea dictumst aliquam augue quam sollicitudin vitae",
+      "price": 20,
+      "discount": 50,
+      "category": "gratis",
+      "image": [
+         "img-phone-03.jpg",
+         "img-phone-01.jpg"
+      ],
+      "features": []
+   },
+   {
+      "id": 3,
+      "name": "blandit",
+      "description": "consequat lectus in est risus auctor sed tristique in tempus",
+      "price": 100,
+      "discount": 90,
+      "category": "oferta",
+      "image": [
+         "img-phone-01.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 16mpx",
+         "Memoria: 64gb"
+      ]
+   },
+   {
+      "id": 4,
+      "name": "ornare",
+      "description": "tortor risus dapibus augue vel accumsan tellus",
+      "category": "nuevo",
+      "price": 120,
+      "discount": 10,
+      "image": [
+         "img-phone-02.jpg"
+      ],
+      "features": [
+         "Pantalla: 6.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 5,
+      "name": "Motorola Edge 2 XT",
+      "description": "velit eu est congue elementum in hac",
+      "price": 350,
+      "discount": 10,
+      "category": "nuevo",
+      "image": [
+         "img-phone-01.jpg"
+      ],
+      "features": []
+   },
+   {
+      "id": 6,
+      "name": "sodales sed",
+      "description": "ultrices erat tortor sollicitudin mi sit amet",
+      "category": "oferta",
+      "price": 600,
+      "discount": 10,
+      "image": [
+         "img-phone-02.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 7,
+      "name": "fringilla rhoncus",
+      "description": "consequat ut nulla sed accumsan felis ut at dolor",
+      "category": "nuevo",
+      "price": 480,
+      "discount": 10,
+      "image": [
+         "img-phone-01.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 8,
+      "name": "luctus nec",
+      "description": "consectetuer adipiscing elit proin risus",
+      "category": "gratis",
+      "price": 690,
+      "discount": 10,
+      "image": [
+         "img-phone-03.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 9,
+      "name": "enim in",
+      "description": "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl",
+      "category": "gratis",
+      "price": 180,
+      "discount": 10,
+      "image": [
+         "img-phone-02.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 10,
+      "name": "hac habitasse",
+      "description": "pede posuere nonummy integer non velit donec",
+      "category": "gratis",
+      "price": 190,
+      "discount": 10,
+      "image": [
+         "img-phone-03.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 11,
+      "name": "morbi vestibulum",
+      "description": "rutrum nulla nunc purus phasellus",
+      "category": "nuevo",
+      "price": 100,
+      "discount": 10,
+      "image": [
+         "img-phone-01.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 12,
+      "name": "turpis adipiscing",
+      "description": "duis bibendum morbi non quam nec dui",
+      "category": "nuevo",
+      "price": 100,
+      "discount": 10,
+      "image": [
+         "img-phone-01.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 12mpx",
+         "Memoria: 32gb"
+      ]
+   },
+   {
+      "id": 13,
+      "name": "porttitor",
+      "description": "est risus auctor sed tristique in tempus",
+      "category": "oferta",
+      "price": 120,
+      "discount": 10,
+      "image": [
+         "img-phone-03.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 32mpx",
+         "Memoria: 128gb"
+      ]
+   },
+   {
+      "id": 14,
+      "name": "lacus",
+      "description": "donec quis orci eget orci vehicula condimentum curabitur in libero",
+      "category": "oferta",
+      "price": 450,
+      "discount": 10,
+      "image": [
+         "img-phone-02.jpg"
+      ],
+      "features": [
+         "Pantalla: 4.1'",
+         "Camara: 12mpx",
+         "Memoria: 2gb"
+      ]
+   },
+   {
+      "id": 15,
+      "name": "quam suspendisse",
+      "description": "lobortis vel dapibus at diam nam",
+      "category": "oferta",
+      "price": 100,
+      "discount": 10,
+      "image": [
+         "img-phone-01.jpg"
+      ],
+      "features": [
+         "Pantalla: 5.1'",
+         "Camara: 8mpx",
+         "Memoria: 4gb"
+      ]
+   }
+]

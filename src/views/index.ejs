@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('./partials/head') %> 
+
+<body class="home">
+
+    <%- include('./partials/header') %> 
+
+    <section class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div id="carousel1" class="carousel-item active"></div>
+                <div id="carousel2" class="carousel-item"></div>
+                <div id="carousel3" class="carousel-item"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <main class="container">
+        <section class="productos">
+            <h3 id="title-ofertas" style="width: 100%;" >Ofertas imperdibles</h3>
+                <% ofertas.forEach(product => { %>
+                        <a href="/products/detail/<%= product.id %>">
+                            <article>
+                                <img class="img-producto" src="/images/products/<%= product.images[0].file %>" alt="telefono móvil" />
+                                    <img class="img-sticker" src="/images/<%= product.category.name === 'usado' ? 'img-descuento.png' : product.category.name === 'nuevo' ? 'img-nuevo.png' : 'img-gratis.png'%>" alt="" />
+                                    <h4><%= product.name %></h4>
+                                    <p>
+                                        <%= product.description %> 
+                                    </p>
+                            
+                                <a class="btn-comprar" href="#" onclick="addItem(event,'<%=product.id%>')">comprar</a>
+                            </article>
+                        </a>
+                <% }) %>
+                <h3 style="width: 100%;">Nuevos</h3>
+                <% products.forEach(product => { %>
+                        <a href="/products/detail/<%= product.id %>">
+                            <article>
+                                <img class="img-producto" src="/images/products/<%= product.images[0].file %>" alt="telefono móvil" />
+                                <img class="img-sticker" src="/images/<%= product.category.name === 'usado' ? 'img-descuento.png' : product.category.name === 'nuevo' ? 'img-nuevo.png' : 'img-gratis.png'%>" alt="" />
+                                    <h4><%= product.name %></h4>
+                                    <p>
+                                        <%= product.description %> 
+                                    </p>
+                            
+                                    <a class="btn-comprar" href="#" onclick="addItem(event,'<%=product.id%>')">comprar</a>
+                                </article>
+                        </a>
+                  
+            <% }) %>
+        </section>
+        <aside>
+            <section class="tutoriales">
+                <h3 id="tutoriales">Tutoriales</h3>
+                <% tutoriales.forEach(tutorial => { %>
+                    <article class="">
+                        <img src="/images/<%= tutorial.image %> " alt="imagen tutorial" />
+                        <p><%= tutorial.title %> </p>
+                    </article>
+                <% }) %>
+              
+             
+            </section>
+            <section class="box-publicidad">
+                <h3 id="title-publicidad">Publicidad</h3>
+                <article class="publicidad" id="patrocinadores">
+                    <img src="/images/ad-01.jpg" alt="imagen publicitaria" />
+                    <img src="/images/ad-02.jpg" alt="imagen publicitaria" />
+                </article>
+            </section>
+        </aside>
+    </main>
+    <%- include('./partials/scripts') %> 
+   
+    <script src="/javascripts/index.js"></script>
+</body>
+
+</html>
